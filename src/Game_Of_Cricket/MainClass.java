@@ -1,29 +1,30 @@
 package Game_Of_Cricket;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 public class MainClass {
-    public static void main(String[] args)throws Exception {
-        MatchController controller = new MatchController();
-
+    /**
+     * Main class of the Cricket Game
+     * @param args
+     * @throws IOException to handle any exception
+     */
+    public static void main(String[] args) throws IOException {
+        int play;
         Scanner sc = new Scanner(System.in);
+        System.out.println("Press 1 to play and any other digit to exit");
+        play = sc.nextInt();
+        while (play == 1) {
+            /**
+             * calling MatchController class to play the game
+             */
+            MatchController mc = new MatchController();
+            mc.play();
 
-        int choice=1;
-        do{
-        System.out.println("Enter Overs of the Match between 1-10");
-        int overs = sc.nextInt();
-        controller.setMatchOvers(overs);
-
-        System.out.println("User Team vs Com");
-        System.out.println("Select 1 for choosing Team1 or select 2 for choosing Team2");
-        int userteam = sc.nextInt();
-        controller.setUserTeam(userteam);
-
-        controller.playMatch();
-
-        System.out.println("Want to play again?");
-        System.out.println("Select 1 to play 0 to exit");
-        choice = sc.nextInt();
-        }while(choice!=0);
+            System.out.println("Hope you enjoyed this game");
+            System.out.println("Want to play again");
+            System.out.println("Press 1 to play and any other digit to exit");
+            play = sc.nextInt();
+        }
     }
 }

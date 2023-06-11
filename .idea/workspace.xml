@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08f04964-77ee-49f6-97a8-9e3bfbf2c232" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CricketGame.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/GenerateScores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/MatchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Teams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Team1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Team2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/GenerateScores.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/MainClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/MatchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/MatchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Teams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,10 +37,31 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Game_Of_Cricket.MainClass" />
+      <module name="CricketGame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Game_Of_Cricket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainClass" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,11 +76,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="2b6487f2-e1e1-44b0-a836-5b9e0b5a0c12">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="2b6487f2-e1e1-44b0-a836-5b9e0b5a0c12" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
