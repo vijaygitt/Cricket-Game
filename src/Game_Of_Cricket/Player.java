@@ -1,7 +1,7 @@
 package Game_Of_Cricket;
 
 public class Player {
-    private String name;
+    private final String name;
     private int score;
     private int ballplayed;
     private boolean out;
@@ -14,6 +14,7 @@ public class Player {
     }
 
     public void isOut(boolean out) {
+        ballplayed++;
         this.out = out;
     }
 
@@ -25,7 +26,7 @@ public class Player {
         return score;
     }
 
-    public int getBallplayed() {
+    public int getBallPlayed() {
         return ballplayed;
     }
 
@@ -34,6 +35,7 @@ public class Player {
     }
 
     public void displayFinalScore(){
-        System.out.println(getName()+" -> "+getScore()+" "+getBallplayed()+" "+isOut());
+        System.out.println(getName()+" -> "+getScore()+" "+getBallPlayed()+" "+isOut());
     }
+
 }

@@ -4,17 +4,59 @@ import java.util.ArrayList;
 
 public class Team2 implements Teams{
     String name;
-    int score;
+    private int score;
     int ballplayed;
-    int wickets;
+    private int wickets;
     int extras;
-    ArrayList<Player> players=new ArrayList<Player>(11);
+    ArrayList<Player> players=new ArrayList<>(11);
     Team2(String name){
         this.name=name;
     }
     public void setName(String name) {
 
         this.name = name;
+    }
+    public void setPlayer(Player player) {
+        players.add(player);
+    }
+
+    public void setScore(int score) {
+        this.score = score;
+    }
+
+    public void setBallPlayed(int ballplayed) {
+        this.ballplayed = ballplayed;
+    }
+
+    public void setWickets(int wickets) {
+        this.wickets = wickets;
+    }
+
+    public void setExtras(int extras) {
+        this.extras = extras;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public int getScore() {
+        return score;
+    }
+
+    public int getBallPlayed() {
+        return ballplayed;
+    }
+
+    public int getWickets() {
+        return wickets;
+    }
+
+    public int getExtras() {
+        return extras;
+    }
+
+    public Player getPlayer(int index) {
+        return players.get(index);
     }
 
     public void runs(int run){

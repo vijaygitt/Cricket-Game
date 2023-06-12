@@ -24,4 +24,26 @@ public interface Teams {
     /**
      * to add players to the team
      */
+
+    void setPlayer(Player player);
+    void setScore(int score);
+
+    void setBallPlayed(int ballplayed);
+
+    void setWickets(int wickets);
+
+    void setExtras(int extras);
+    String getName();
+
+    int getScore();
+
+    int getBallPlayed();
+
+    int getWickets();
+
+    int getExtras();
+
+    Player getPlayer(int index);
+    void showPlayerFinalScore();
+    void showTeamScore();
 }

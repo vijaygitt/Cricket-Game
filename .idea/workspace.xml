@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08f04964-77ee-49f6-97a8-9e3bfbf2c232" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Team1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Team2.java" afterDir="false" />
+    <list default="true" id="08f04964-77ee-49f6-97a8-9e3bfbf2c232" name="Changes" comment="little changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/GenerateScores.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/MainClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/MatchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/MatchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/Team1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Team1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/Team2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Team2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Game_Of_Cricket/Teams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game_Of_Cricket/Teams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,13 +33,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "OverrideImplement.generate.javadoc": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;OverrideImplement.generate.javadoc&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Game_Of_Cricket.MainClass" />
@@ -113,5 +111,9 @@
         <entry key="2b6487f2-e1e1-44b0-a836-5b9e0b5a0c12" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="little changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="little changes" />
   </component>
 </project>
