@@ -2,21 +2,23 @@ package Game_Of_Cricket;
 
 import java.util.ArrayList;
 
-public class Team1 implements Teams{
+public class Team implements Teams{
     String name;
     private int score;
     int ballplayed;
     private int wickets;
     int extras;
     ArrayList<Player> players=new ArrayList<>(11);
-    Team1(String name){
+
+    Team(){}
+
+    Team(String name){
         this.name=name;
     }
     public void setName(String name) {
 
         this.name = name;
     }
-
     public void setPlayer(Player player) {
         players.add(player);
     }
@@ -79,6 +81,6 @@ public class Team1 implements Teams{
         players.get(wickets-1).displayFinalScore();
     }
     public void showTeamScore(){
-        System.out.println(name+" -> "+score+"/"+wickets+" "+ballplayed+" "+extras);
+        System.out.println(name+" -> "+score+"/"+wickets+" in "+ballplayed+" balls   Extras:"+extras);
     }
 }

@@ -2,20 +2,19 @@ package Game_Of_Cricket;
 
 import java.io.IOException;
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class MainClass {
     /**
      * Main class of the Cricket Game
-     * @param args
-     * @throws IOException to handle any exception
      */
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws InterruptedException {
         int play;
         Scanner sc = new Scanner(System.in);
         System.out.println("Press 1 to play and any other digit to exit");
         play = sc.nextInt();
         while (play == 1) {
-            /**
+            /*
              * calling MatchController class to play the game
              */
             MatchController mc = new MatchController();
